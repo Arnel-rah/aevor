@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+
+# Environnements et secrets locaux
+.env
+.env.*
+!.env.example
+
+# Données locales d'Aevor
+memory.json
+cache/
+*.raw.wav
+*.wav
+
+# Modèles et fichiers audio volumineux
+voices/*.onnx
+voices/*.bin
+models/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+.DS_Store
